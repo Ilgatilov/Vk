@@ -23,4 +23,9 @@ public class Post {
     private CopyrightInfo copyrightInfo;
     private PostSource postSource;
     private DonutInfo donutInfo;
+    // добавлено
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
 }
